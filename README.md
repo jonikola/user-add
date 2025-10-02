@@ -29,22 +29,22 @@ cd user-add
 ```
 
 Make the script executable:
-```bash
+```console
 chmod +x user-add.py
 ```
 
 You can also optionally install it into your system path (e.g. /usr/local/bin) for convenience:
-```bash
+```console
 sudo cp user-add.py /usr/local/bin/user-add
 ```
 
 Create text file with usernames and groups that are assigned to them in format `username:group1, group2, etc.`
 
 Run the script with:
-```bash
+```console
 ./user-add.py path_to_text_file
 ```
 or
-```bash
+```console
 python user-add.py path_to_text_file
 ```
