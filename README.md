@@ -23,7 +23,7 @@ It aims to reduce manual repetition and avoid mistakes when onboarding new users
 ## Usage
 
 Clone this repository:
-```bash
+```console
 git clone https://github.com/jonikola/user-add.git
 cd user-add
 ```
